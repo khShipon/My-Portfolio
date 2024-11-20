@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Shipon - English Teacher Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="logo-container">
+                <div class="logo-img-wrapper">
+                    <img src="./Untitled design (11).png" alt="Shipon" class="logo-img">
+                </div>
+                <div class="logo-text-wrapper">
+                    <span class="logo-text">Shipon</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-links">
+            <div class="nav-item">
+                <a href="#home">
+                    <span class="nav-icon">🏠</span>
+                    Home
+                    <div class="nav-tooltip">Welcome to my portfolio</div>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#about">
+                    <span class="nav-icon">👨‍🏫</span>
+                    About
+                    <div class="nav-tooltip">Learn about my teaching journey</div>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#experience">
+                    <span class="nav-icon">💼</span>
+                    Experience
+                    <div class="nav-tooltip">10+ years of teaching excellence</div>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#skills">
+                    <span class="nav-icon">🎯</span>
+                    Skills
+                    <div class="nav-tooltip">My teaching specialties</div>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#contact">
+                    <span class="nav-icon">📧</span>
+                    Contact
+                    <div class="nav-tooltip">Let's connect!</div>
+                </a>
+            </div>
+            <button id="themeToggle" class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="home">
+        <img src="Untitled design (11).png" alt="Professional headshot" class="profile-img">
+        <div class="hero-text">
+          <div class="title-container">
+              <h1 class="main-title">
+                  <span class="highlight">Shipon</span>
+                  <div class="subtitle-wrapper">
+                      <span class="subtitle">Professional English Teacher</span>
+                      <span class="animated-text">
+                          <span class="dynamic-text">IELTS Expert</span>
+                          <span class="dynamic-text">Business English</span>
+                          <span class="dynamic-text">Language Mentor</span>
+                      </span>
+                  </div>
+              </h1>
+          </div>
+      </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate English teacher with extensive experience in helping students master the English language. My teaching approach combines traditional methods with modern techniques to ensure effective learning outcomes.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Teaching Experience</h2>
+            <ul>
+                <li>10+ years of English teaching experience</li>
+                <li>Expertise in IELTS and TOEFL preparation</li>
+                <li>Experience in both online and classroom teaching</li>
+                <li>Specialized in Business English and Academic Writing</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Grammar Instruction</li>
+                <li>Pronunciation Training</li>
+                <li>Vocabulary Building</li>
+                <li>Speaking Practice</li>
+                <li>Writing Skills</li>
+                <li>Test Preparation</li>
+                <li>Curriculum Development</li>
+                <li>Student Assessment</li>
+            </ul>
+        </section>
+
+        <section id="courses" class="section">
+            <h2>Courses I Provide</h2>
+            <div class="courses-grid">
+                <div class="course-card popular">
+                    <div class="course-icon">
+                        <svg class="icon-speaking" viewBox="0 0 24 24">
+                            <path d="M12 1a9 9 0 0 1 9 9v7a3 3 0 0 1-3 3h-3v-8h4l-4-4-4 4h4v8H9a3 3 0 0 1-3-3v-7a6 6 0 1 1 12 0v1h-2v-1a4 4 0 1 0-8 0v7a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-7a7 7 0 1 0-14 0v1H4v-1a9 9 0 0 1 9-9z"/>
+                            <circle class="sound-wave" cx="12" cy="10" r="3"/>
+                            <circle class="sound-wave" cx="12" cy="10" r="6"/>
+                            <circle class="sound-wave" cx="12" cy="10" r="9"/>
+                        </svg>
+                    </div>
+                    <div class="course-content">
+                        <h3>Spoken English</h3>
+                        <p>Master conversational English with confidence</p>
+                        <ul class="course-features">
+                            <li>✓ Daily conversation practice</li>
+                            <li>✓ Pronunciation training</li>
+                            <li>✓ Vocabulary building</li>
+                            <li>✓ Real-life scenarios</li>
+                        </ul>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">
+                        <svg class="icon-ielts" viewBox="0 0 24 24">
+                            <path class="certificate" d="M4 4v16h16V4H4zm14 14H6V6h12v12z"/>
+                            <path class="star" d="M12 8l1.5 3 3.5.5-2.5 2.5.5 3.5L12 16l-3 1.5.5-3.5L7 11.5l3.5-.5L12 8z"/>
+                            <path class="badge-line" d="M8 8h8M8 12h8M8 16h8"/>
+                        </svg>
+                    </div>
+                    <div class="course-content">
+                        <h3>IELTS Preparation</h3>
+                        <p>Comprehensive IELTS training for band 7+</p>
+                        <ul class="course-features">
+                            <li>✓ All modules covered</li>
+                            <li>✓ Practice tests</li>
+                            <li>✓ Score improvement tips</li>
+                            <li>✓ Band 7+ strategies</li>
+                        </ul>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">
+                        <svg class="icon-grammar" viewBox="0 0 24 24">
+                            <path class="book" d="M4 4v16h16V4H4zm14 14H6V6h12v12z"/>
+                            <path class="text-line" d="M8 8h8M8 12h8M8 16h4"/>
+                            <circle class="dot" cx="18" cy="16" r="1"/>
+                        </svg>
+                    </div>
+                    <div class="course-content">
+                        <h3>English Grammar</h3>
+                        <p>Master English grammar from basics to advanced</p>
+                        <ul class="course-features">
+                            <li>✓ Structured learning path</li>
+                            <li>✓ Practice exercises</li>
+                            <li>✓ Common error fixes</li>
+                            <li>✓ Writing improvement</li>
+                        </ul>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <h2 class="social-heading">
+            Connect with me
+        </h2>
+        <style>
+            .social-heading {
+                text-align: center;
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+                font-weight: bold;
+            }
+            
+            .social-heading span {
+                display: inline-block;
+                animation: colorCycle 5s infinite;
+            }
+            
+            .social-heading span:nth-child(1) { animation-delay: 0.0s; }
+            .social-heading span:nth-child(2) { animation-delay: 0.2s; }
+            .social-heading span:nth-child(3) { animation-delay: 0.4s; }
+            .social-heading span:nth-child(4) { animation-delay: 0.6s; }
+            .social-heading span:nth-child(5) { animation-delay: 0.8s; }
+            .social-heading span:nth-child(6) { animation-delay: 1.0s; }
+            .social-heading span:nth-child(7) { animation-delay: 1.2s; }
+            .social-heading span:nth-child(8) { animation-delay: 1.4s; }
+            .social-heading span:nth-child(9) { animation-delay: 1.6s; }
+            .social-heading span:nth-child(10) { animation-delay: 1.8s; }
+            .social-heading span:nth-child(11) { animation-delay: 2.0s; }
+            .social-heading span:nth-child(12) { animation-delay: 2.2s; }
+            .social-heading span:nth-child(13) { animation-delay: 2.4s; }
+            .social-heading span:nth-child(14) { animation-delay: 2.6s; }
+            .social-heading span:nth-child(15) { animation-delay: 2.8s; }
+
+            @keyframes colorCycle {
+                0% { color: var(--primary); }
+                33% { color: var(--secondary); }
+                66% { color: var(--accent); }
+                100% { color: var(--primary); }
+            }
+        </style>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://facebook.com/yourprofile" class="social-icon facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://wa.me/yourwhatsappnumber" class="social-icon whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://instagram.com/yourprofile" class="social-icon instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://tiktok.com/@yourprofile" class="social-icon tiktok" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="social-icon linkedin" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com/yourprofile" class="social-icon twitter" target="_blank">
+                    <i class="fab fa-x-twitter"></i>
+                    <span>X</span>
+                </a>
+                <a href="https://youtube.com/yourchannel" class="social-icon youtube" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>© 2024 Shipon - English Teacher. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-circle">
+            <svg class="progress-ring" width="60" height="60">
+                <circle class="progress-ring-circle" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+            </svg>
+            <div class="progress-text">0%</div>
+        </div>
+    </div>
+</body>
+</html>
+
